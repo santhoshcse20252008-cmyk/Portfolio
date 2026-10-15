@@ -1,0 +1,6 @@
+{
+  "name": "Full-Stack Personal Portfolio Website",
+  "description": "A modern, responsive full-stack personal portfolio website showcasing software projects, technical skills, academic background, certifications, and contact management with Express and MySQL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

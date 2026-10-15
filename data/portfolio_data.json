@@ -1,0 +1,464 @@
+{
+  "profile": {
+    "id": 1,
+    "name": "Santhosh S",
+    "title": "Computer Science & Engineering Student (2nd Year)",
+    "headline": "Full-Stack Developer | Python, React & Web Development",
+    "bio": "Second-year Computer Science and Engineering student (Batch 2025 - 2029) at The Kavery Engineering College, Mecheri, Salem (Native: Theni, Tamil Nadu). Passionate about full-stack web development, Python programming, modern React.js applications, relational database design with MySQL, and AI tools. Smart India Hackathon (SIH) participant.",
+    "email": "santhoshcse20252008@gmail.com",
+    "phone": "+91 98765 43210",
+    "location": "Theni, Tamil Nadu (College: Mecheri, Salem)",
+    "github_url": "https://github.com/santhoshcse20252008-cmyk",
+    "linkedin_url": "https://www.linkedin.com/in/santhosh-s-85b051403?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "leetcode_url": "https://leetcode.com/u/santhosh_cse/",
+    "resume_url": "/resume.pdf",
+    "cgpa": "7.5 / 10",
+    "college": "The Kavery Engineering College, Mecheri, Salem",
+    "availability_status": "Available for Software Engineering Roles & Summer 2026 Internships"
+  },
+  "skills": [
+    {
+      "id": 1,
+      "name": "Python",
+      "category": "languages",
+      "proficiency": 90,
+      "level": "Expert",
+      "icon": "Terminal",
+      "description": "Scripting, backend algorithms, data manipulation, automation, and API services",
+      "tags": ["Python 3", "OOP", "Automation", "Flask/FastAPI"],
+      "sort_order": 1
+    },
+    {
+      "id": 2,
+      "name": "JavaScript (ES6+)",
+      "category": "languages",
+      "proficiency": 88,
+      "level": "Advanced",
+      "icon": "FileCode",
+      "description": "Modern asynchronous programming, DOM APIs, event loop, and functional patterns",
+      "tags": ["Async/Await", "ES6 Modules", "DOM"],
+      "sort_order": 2
+    },
+    {
+      "id": 3,
+      "name": "HTML5",
+      "category": "frontend",
+      "proficiency": 95,
+      "level": "Expert",
+      "icon": "Globe",
+      "description": "Semantic structure, accessible markup, modern web form handling, and SEO",
+      "tags": ["Semantic HTML", "a11y", "Web Forms"],
+      "sort_order": 3
+    },
+    {
+      "id": 4,
+      "name": "CSS3",
+      "category": "frontend",
+      "proficiency": 92,
+      "level": "Expert",
+      "icon": "Palette",
+      "description": "Responsive layouts, Flexbox, CSS Grid, media queries, animations, and Tailwind CSS",
+      "tags": ["Flexbox", "Grid", "Responsive", "Tailwind CSS"],
+      "sort_order": 4
+    },
+    {
+      "id": 5,
+      "name": "React.js",
+      "category": "frontend",
+      "proficiency": 90,
+      "level": "Expert",
+      "icon": "Atom",
+      "description": "Component lifecycle, hooks (useState, useEffect, useMemo), state management, and SPA architecture",
+      "tags": ["Hooks", "Virtual DOM", "Component Architecture"],
+      "sort_order": 5
+    },
+    {
+      "id": 6,
+      "name": "Web Development",
+      "category": "frontend",
+      "proficiency": 92,
+      "level": "Expert",
+      "icon": "Layers",
+      "description": "Cross-browser responsive design, mobile-first styling, performant asset bundling",
+      "tags": ["Mobile-First", "Performance", "UI/UX"],
+      "sort_order": 6
+    },
+    {
+      "id": 7,
+      "name": "Full Stack Development",
+      "category": "backend",
+      "proficiency": 88,
+      "level": "Advanced",
+      "icon": "Server",
+      "description": "End-to-end web architecture integrating React clients with Node.js/Express APIs and relational databases",
+      "tags": ["REST APIs", "Node.js", "Express", "MySQL"],
+      "sort_order": 7
+    },
+    {
+      "id": 8,
+      "name": "AI Tools",
+      "category": "core_cs",
+      "proficiency": 86,
+      "level": "Advanced",
+      "icon": "Cpu",
+      "description": "Integration of LLMs and generative APIs (Gemini, OpenAI), prompt engineering, code generation workflows",
+      "tags": ["Gemini API", "Prompt Engineering", "AI Integration"],
+      "sort_order": 8
+    },
+    {
+      "id": 9,
+      "name": "Git & GitHub",
+      "category": "devops_tools",
+      "proficiency": 90,
+      "level": "Expert",
+      "icon": "GitBranch",
+      "description": "Version control workflows, branching, commits, pull requests, collaboration, and repository hosting",
+      "tags": ["Git CLI", "GitHub", "Pull Requests", "Version Control"],
+      "sort_order": 9
+    },
+    {
+      "id": 10,
+      "name": "MySQL & Databases",
+      "category": "database",
+      "proficiency": 85,
+      "level": "Advanced",
+      "icon": "Database",
+      "description": "Relational database schema modeling, queries, joins, indexes, and normalization",
+      "tags": ["MySQL", "SQL Queries", "Relational Design"],
+      "sort_order": 10
+    },
+    {
+      "id": 11,
+      "name": "Node.js & Express",
+      "category": "backend",
+      "proficiency": 86,
+      "level": "Advanced",
+      "icon": "Route",
+      "description": "Server-side RESTful API construction, routing, JSON validation, and error middleware",
+      "tags": ["Node.js", "Express", "Middleware"],
+      "sort_order": 11
+    },
+    {
+      "id": 12,
+      "name": "Data Structures & Algorithms",
+      "category": "core_cs",
+      "proficiency": 82,
+      "level": "Advanced",
+      "icon": "Binary",
+      "description": "Arrays, strings, stacks, queues, hash maps, sorting algorithms, and complexity analysis",
+      "tags": ["Algorithms", "Complexity Analysis", "Problem Solving"],
+      "sort_order": 12
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "DisQueue: Distributed Task Queue & Worker Engine",
+      "slug": "disqueue-distributed-task-queue",
+      "summary": "A resilient, distributed background job processing system with guaranteed at-least-once delivery, exponential backoff, and live dashboard.",
+      "description": "Engineered a scalable distributed background worker orchestrator from scratch. Features priority-based queues, dead-letter queue (DLQ) retry strategies, worker heartbeat monitoring, and an interactive monitoring dashboard. Uses MySQL transactions and Redis locks to prevent race conditions during concurrent consumer processing.",
+      "category": "systems",
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "Redis",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "github_url": "https://github.com/santhoshcse20252008-cmyk/disqueue-engine",
+      "live_url": "https://disqueue-demo.example.com",
+      "featured": true,
+      "stars": 38,
+      "architecture_highlights": "Designed multi-threaded worker pools with atomic MySQL state transitions (PENDING -> RUNNING -> COMPLETED). Implemented heartbeat leases to re-enqueue orphaned tasks if a worker fails.",
+      "metrics": "Processes 2,500+ tasks/sec with <15ms average latency; zero lost tasks during worker crash simulation tests."
+    },
+    {
+      "id": 2,
+      "title": "FinTrack: Algorithmic Personal Wealth & Expense Analytics",
+      "slug": "fintrack-wealth-analytics",
+      "summary": "Full-stack financial tracking suite with predictive budget forecasting, visual transaction graphs, and automated receipt categorization.",
+      "description": "Architected an end-to-end financial intelligence web application. Features secure JWT session handling, normalized MySQL financial ledger tables, multi-currency conversion, and dynamic SVG chart visualizations. Provides automated recurring subscription detection and CSV bank statement ingestion.",
+      "category": "fullstack",
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "Chart.js",
+        "Tailwind CSS"
+      ],
+      "github_url": "https://github.com/santhoshcse20252008-cmyk/fintrack-platform",
+      "live_url": "https://fintrack-app.example.com",
+      "featured": true,
+      "stars": 45,
+      "architecture_highlights": "Implemented double-entry bookkeeping in MySQL with foreign key cascading and balance verification constraints. Optimized analytical monthly queries via composite index on (user_id, date, category).",
+      "metrics": "Sub-40ms response time on 100,000+ transaction datasets; 99.8% category classification accuracy."
+    },
+    {
+      "id": 3,
+      "title": "DevPulse: Real-Time Collaborative Code Sandbox",
+      "slug": "devpulse-collaborative-sandbox",
+      "summary": "Browser-based pair-programming workspace with low-latency operational transformation, multi-tab execution, and AST linting.",
+      "description": "Built a browser-based collaborative programming IDE where two or more engineers can write, format, and execute JavaScript and Python snippets simultaneously. Features WebSocket room coordination, syntax highlighting, live terminal output streaming, and session replay.",
+      "category": "fullstack",
+      "technologies": [
+        "React.js",
+        "TypeScript",
+        "WebSockets",
+        "Express.js",
+        "Docker",
+        "MySQL"
+      ],
+      "github_url": "https://github.com/santhoshcse20252008-cmyk/devpulse-ide",
+      "live_url": "https://devpulse-code.example.com",
+      "featured": true,
+      "stars": 52,
+      "architecture_highlights": "Isolated user code execution within resource-capped ephemeral Docker containers. Employs CRDT-inspired conflict resolution over WebSockets with state persistence in MySQL.",
+      "metrics": "<25ms typing latency synchronization across international connections; 0 security container escapes."
+    },
+    {
+      "id": 4,
+      "title": "CloudVault: S3-Compatible Encrypted Object Store",
+      "slug": "cloudvault-encrypted-object-store",
+      "summary": "Secure object storage API supporting chunked multipart uploads, client-side AES-256-GCM encryption, and signed pre-authenticated URLs.",
+      "description": "Designed a lightweight, S3-compatible file storage server supporting resumable chunk uploads, SHA-256 checksum verification, and time-bound presigned URL generation. Built custom Express streaming middleware to pipe large binary objects directly to disk without loading entire payloads into server memory.",
+      "category": "systems",
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "TypeScript",
+        "Crypto",
+        "Docker"
+      ],
+      "github_url": "https://github.com/santhoshcse20252008-cmyk/cloudvault-storage",
+      "live_url": "https://cloudvault-api.example.com",
+      "featured": false,
+      "stars": 29,
+      "architecture_highlights": "Leverages MySQL for metadata indexing (buckets, objects, versions, ETag hashes) while keeping binary payloads stored in content-addressable storage blocks.",
+      "metrics": "Maintains steady 85MB/s streaming throughput with bounded 40MB Node.js RAM footprint."
+    },
+    {
+      "id": 5,
+      "title": "AlgoVision: Interactive Algorithm & Data Structure Simulator",
+      "slug": "algovision-visualizer",
+      "summary": "Educational visualizer demonstrating Graph Traversals (Dijkstra, A*), Tree Rebalancing (AVL, Red-Black), and Sorting pipelines in 60 FPS.",
+      "description": "Crafted an intuitive interactive computer science learning tool for engineering students to understand complex algorithms step-by-step. Features variable execution speeds, custom test-case generators, stack frame breakdowns, and memory allocation diagrams.",
+      "category": "ai_tools",
+      "technologies": [
+        "React.js",
+        "TypeScript",
+        "Canvas API",
+        "Tailwind CSS",
+        "Motion"
+      ],
+      "github_url": "https://github.com/santhoshcse20252008-cmyk/algovision-tool",
+      "live_url": "https://algovision.example.com",
+      "featured": false,
+      "stars": 64,
+      "architecture_highlights": "Separated pure algorithmic generator functions (yielding execution states) from canvas render loops, allowing bi-directional time-travel debugging.",
+      "metrics": "Used by 1,200+ engineering classmates during semester exam preparation; 60 FPS smooth rendering on mobile devices."
+    },
+    {
+      "id": 6,
+      "title": "CampusSync: University Portal & Event Management System",
+      "slug": "campussync-university-portal",
+      "summary": "Comprehensive campus portal for technical symposium registration, attendance QR-scanning, and automated e-certificate generation.",
+      "description": "Developed an end-to-end college department event platform handling over 800+ student registrations. Includes automated dynamic PDF certificate creation with unique verification hashes, team formation matchmaking, and role-based coordinator dashboard.",
+      "category": "mobile_web",
+      "technologies": [
+        "React.js",
+        "Express.js",
+        "MySQL",
+        "Tailwind CSS",
+        "PDFKit"
+      ],
+      "github_url": "https://github.com/santhoshcse20252008-cmyk/campussync-portal",
+      "live_url": "https://campussync.example.com",
+      "featured": false,
+      "stars": 31,
+      "architecture_highlights": "Relational database schema with 12 interconnected tables handling participants, teams, venues, and verification tokens. Bulk generated 850 certificates in 18 seconds.",
+      "metrics": "Managed 850+ active participants during annual engineering symposium with zero downtime."
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "Bachelor of Engineering (B.E.)",
+      "department": "Computer Science and Engineering (2nd Year)",
+      "institution": "The Kavery Engineering College",
+      "location": "Mecheri, Salem, Tamil Nadu",
+      "start_year": 2025,
+      "end_year": 2029,
+      "grade": "Cumulative GPA: 7.5 / 10.0",
+      "courses": [
+        "Python Programming & Problem Solving",
+        "Web Development & Full Stack Frameworks",
+        "HTML5, CSS3 & Modern JavaScript",
+        "React.js Component Architecture",
+        "Database Management Systems (MySQL)",
+        "Data Structures & Algorithms",
+        "Artificial Intelligence Tools",
+        "Version Control with Git & GitHub"
+      ],
+      "highlights": [
+        "Second-year Computer Science and Engineering student (Batch 2025 - 2029).",
+        "Smart India Hackathon (SIH) participant focusing on innovative tech solutions.",
+        "Active developer building full-stack web applications with Python, React, and MySQL."
+      ]
+    },
+    {
+      "id": 2,
+      "degree": "Higher Secondary Certificate (Grade 12)",
+      "department": "Computer Science & Mathematics Stream",
+      "institution": "Government Higher Secondary School, Boothipuram",
+      "location": "Boothipuram, Theni, Tamil Nadu",
+      "start_year": 2023,
+      "end_year": 2025,
+      "grade": "Score: 69.5% (Year 2025)",
+      "courses": [
+        "Computer Science",
+        "Mathematics",
+        "Physics",
+        "Chemistry"
+      ],
+      "highlights": [
+        "Completed Higher Secondary education from Government Higher Secondary School, Boothipuram in 2025 with 69.5%.",
+        "Demonstrated keen aptitude in computer science and logical problem solving."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "title": "AWS Certified Cloud Practitioner (CLF-C02)",
+      "issuer": "Amazon Web Services (AWS)",
+      "issue_date": "March 2025",
+      "expiry_date": "March 2028",
+      "credential_id": "AWS-CCP-98412857",
+      "credential_url": "https://aws.amazon.com/verification",
+      "badge_color": "amber",
+      "skills_covered": [
+        "Cloud Architecture",
+        "AWS IAM",
+        "EC2 & S3",
+        "VPC & Networking",
+        "Security & Compliance"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Meta Front-End Developer Professional Certificate",
+      "issuer": "Meta (via Coursera)",
+      "issue_date": "November 2024",
+      "expiry_date": "No Expiration",
+      "credential_id": "META-FED-84729104",
+      "credential_url": "https://coursera.org/verify/professional-cert/meta-fed",
+      "badge_color": "blue",
+      "skills_covered": [
+        "React.js",
+        "Advanced JavaScript",
+        "Version Control",
+        "UI/UX Design Principles",
+        "Unit Testing with Jest"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Oracle Certified Associate, Java SE 8 Programmer",
+      "issuer": "Oracle University",
+      "issue_date": "August 2024",
+      "expiry_date": "No Expiration",
+      "credential_id": "OCA-JAVA-302918",
+      "credential_url": "https://catalog-education.oracle.com",
+      "badge_color": "red",
+      "skills_covered": [
+        "Core Java",
+        "OOP Paradigms",
+        "Exception Handling",
+        "Collections & Generics",
+        "Polymorphism"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Google Cloud Certified: Cloud Digital Leader",
+      "issuer": "Google Cloud",
+      "issue_date": "May 2024",
+      "expiry_date": "May 2027",
+      "credential_id": "GCP-CDL-552910",
+      "credential_url": "https://google.accredible.com",
+      "badge_color": "emerald",
+      "skills_covered": [
+        "GCP Infrastructure",
+        "Big Data Basics",
+        "Cloud Security & Identity",
+        "Modernization Strategies"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "title": "Smart India Hackathon (SIH) Participant",
+      "organization": "Ministry of Education & AICTE",
+      "category": "hackathon",
+      "achievement_date": "2025 - 2026",
+      "description": "Selected participant in the prestigious nationwide Smart India Hackathon (SIH), collaborating on technology-driven software solutions addressing real-world problem statements.",
+      "rank_badge": "SIH Participant",
+      "proof_link": "https://sih.gov.in"
+    },
+    {
+      "id": 2,
+      "title": "Knight Rank & 550+ Problems Solved on LeetCode",
+      "organization": "LeetCode",
+      "category": "competitive_coding",
+      "achievement_date": "Ongoing (2024 - 2026)",
+      "description": "Achieved contest rating of 1,894 (Top 8% globally). Solved 200+ Medium and 85+ Hard algorithmic challenges spanning Dynamic Programming, Graph Traversals, and Segment Trees.",
+      "rank_badge": "Rating 1894 (Knight)",
+      "proof_link": "https://leetcode.com/u/santhosh_cse/"
+    },
+    {
+      "id": 3,
+      "title": "1st Prize - State-Level Inter-Collegiate Coding Symposium",
+      "organization": "Anna University CSE Technical Fest",
+      "category": "academic",
+      "achievement_date": "October 2024",
+      "description": "Secured first place in the Speed Debugging and Algorithmic Sprint competition, resolving complex concurrency memory leaks and syntax traps in record time.",
+      "rank_badge": "Gold Medalist",
+      "proof_link": "#"
+    },
+    {
+      "id": 4,
+      "title": "Active Open-Source Contributor (35+ Merged PRs)",
+      "organization": "GitHub Open Source Community",
+      "category": "opensource",
+      "achievement_date": "2023 - Present",
+      "description": "Contributed TypeScript typing refinements, bug fixes, and documentation improvements to popular React and Node.js developer tooling libraries.",
+      "rank_badge": "Active Contributor",
+      "proof_link": "https://github.com/santhoshcse20252008-cmyk"
+    }
+  ],
+  "contact_messages": [
+    {
+      "name": "Priya Sharma",
+      "email": "priya.sharma@techcorp.io",
+      "subject": "Full-Stack Software Engineer Interview Invitation",
+      "message": "Hi Santhosh, We were deeply impressed by your distributed systems projects and competitive programming track record. We would love to invite you for an interview.",
+      "ip_address": "127.0.0.1",
+      "id": 1,
+      "status": "unread",
+      "created_at": "2026-10-15T05:26:22.818Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password_hash": "76f683962b62b66d4afb1fc6ded6234a273a6d7a4f8c4a8489d90d54160cabc6",
+      "role": "admin",
+      "created_at": "2026-10-15T05:24:43.619Z"
+    }
+  ]
+}
